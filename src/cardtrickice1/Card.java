@@ -7,7 +7,7 @@ package cardtrickice1;
 
 /** define card value and suits
  * 
- *
+ * Liliana Mantilla Guevara ID 991633617
  * @author sivagamasrinivasan
  */
 public class Card 
@@ -15,7 +15,7 @@ public class Card
     private int value;
     private String suits; //encapsulation
     //constant
-    public static final String [] SUITS = { "diamonds","clubs","spades","hearts"};
+    public static final String [] SUITS = { "Diamonds","Clubs","Spades","Hearts"};
 
     /**
      * @return the value
@@ -36,6 +36,7 @@ public class Card
      */
     public String getSuits() {
         return suits;
+       
     }
 
     /**
@@ -43,9 +44,13 @@ public class Card
      */
     public void setSuits(String suits) {
         this.suits = suits;
+         
     }
    //number
     
     //method for suits
-    
+    @Override
+    public String toString(){
+        return "Card: " + this.value + " " + this.suits;
+    }
 }
