@@ -36,23 +36,24 @@ public class CardTrickICE1 {
         
         
         //step 2:take input 
-        Scanner in = new Scanner (System.in);
+       /* Scanner in = new Scanner (System.in);
         System.out.println("Please pick a card:");
         System.out.println("What is suit: Hearts, Diamond, Spades or Clubs?");
         String chooseSuitCard = in.next();
         System.out.println("What is value? (between 1 to 13)");
-        int chooseNumCard = in.nextInt();
+        int chooseNumCard = in.nextInt();*/
         
         //step 3: match with array 
         
         Card cardSelected = new Card(); 
         
-        cardSelected.setSuits(chooseSuitCard);
-        cardSelected.setValue(chooseNumCard);
+        /*cardSelected.setSuits(chooseSuitCard);
+        cardSelected.setValue(chooseNumCard);*/
         
-        
-       
-
+        Card cardSelected = new Card(); 
+        cardSelected.setValue(4);
+        cardSelected.setSuits("Clubs");
+    
         boolean foundCard = false;
         
         for (Card magicHand1 : magicHand) {
