@@ -50,7 +50,7 @@ public class CardTrickICE1 {
         /*cardSelected.setSuits(chooseSuitCard);
         cardSelected.setValue(chooseNumCard);*/
         
-        Card cardSelected = new Card(); 
+        
         cardSelected.setValue(4);
         cardSelected.setSuits("Clubs");
     
